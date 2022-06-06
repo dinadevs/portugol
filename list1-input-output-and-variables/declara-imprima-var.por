@@ -1,17 +1,13 @@
-//caracter e num inteiro
+//declarar e imprimir uma var lógica
 programa
 {
 	
 	funcao inicio()
 	{
-		inteiro sala
-		caracter aluno
-		
-		escreva("Escreva sala do aluno:")
-		leia(sala)
+		logico amanda = verdadeiro 
+	
 
-		escreva("Nome do aluno:")
-		leia(aluno)
+		escreva("Amanda é minha namorada ? ", amanda)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -19,7 +15,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 24; 
+ * @POSICAO-CURSOR = 155; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

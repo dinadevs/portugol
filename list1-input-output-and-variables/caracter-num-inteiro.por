@@ -1,26 +1,28 @@
-//declarar e imprimir uma var lógica
+//caracter e num inteiro
 programa
 {
 	
 	funcao inicio()
 	{
-		logico teste
-		inteiro num
+		inteiro serie
+		caracter classe
 		
-		escreva("Digite o valor:")
-		leia(num)
+		escreva("Serie do aluno : ")
+		leia(serie)
 
-		teste = (num<=10)
+		escreva("Turma do aluno : ")
+		leia(classe)
 
-		escreva("O número é maior que 10?", teste)
+		escreva(serie, " ", classe)
 	}
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 36; 
+ * @POSICAO-CURSOR = 223; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
