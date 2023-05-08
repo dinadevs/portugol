@@ -19,9 +19,9 @@ programa
 		escreva(x != y e y != z e x != z )
 		escreva(x == y e x != z)
 		escreva(z != y ou z == x)
-		escreva(x, y, z != 0)
+		escreva(x == 0 ou y == 0 ou z == 0)
 		escreva(x >= 10 e y < z)
-		escreva(nao x == z)
+		escreva(nao (x != z))
 
 	}
 }
@@ -30,7 +30,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 398; 
+ * @POSICAO-CURSOR = 327; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
