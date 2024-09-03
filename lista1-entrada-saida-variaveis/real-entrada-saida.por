@@ -1,23 +1,23 @@
-//imprimir e ler num decimal
-programa
-{
-	
-	funcao inicio()
-	{
-		real decimal
 
-	escreva("digite um número decimal:")
-	leia(decimal)
+programa
+{//6
+    funcao inicio()
+    {
+        real numDecimal
+        
+        escreva("Digite um número decimal: ")
+        leia(numDecimal)
 
-	escreva(decimal + 0.13)
-	}
+        escreva("O número digitado foi: ", numDecimal)
+    }
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 29; 
+ * @POSICAO-CURSOR = 15; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

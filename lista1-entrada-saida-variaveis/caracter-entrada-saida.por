@@ -1,13 +1,19 @@
-//declarar e imprimir uma var lógica
 programa
-{
+{//5
 	
 	funcao inicio()
 	{
-		logico amanda = verdadeiro 
-	
+		
+		caracter sexo
+		inteiro idade
+		
+		escreva("Digite seu genero: ")
+		leia(sexo)
 
-		escreva("Amanda é minha namorada ? ", amanda)
+		escreva("Digite sua idade: ")
+		leia(idade)
+
+		escreva("Sexo : " + sexo  + "\nIdade: "  + idade)		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -15,7 +21,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 155; 
+ * @POSICAO-CURSOR = 13; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

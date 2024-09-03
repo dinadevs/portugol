@@ -1,23 +1,30 @@
-//lendo e imprimindo idade
 programa
-{
+{//4
 	
 	funcao inicio()
 	{
-		inteiro idade
+		logico numInteiro
+		inteiro  num	
 		
-		escreva("Qual sua idade:")
-		leia(idade)
+		escreva("Digite um número : ")
+		leia(num)	
+		
+		numInteiro = (num % 2 == 0) 
 
-		escreva(idade , "anos\n")
+		se (numInteiro)
+		escreva("O número ", num, " é par.")
+		senao
+		escreva("O número ", num, " é impar.")
 	}
+	
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 145; 
+ * @POSICAO-CURSOR = 13; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
