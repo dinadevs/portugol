@@ -1,15 +1,20 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		logico ehPar 
+		inteiro  num	
+		
+		escreva("Digite um número : ")
+		leia(num)	
+		
+		ehPar = (num % 2 == 0) 
 
-programa
-{//6
-    funcao inicio()
-    {
-        real numDecimal
-        
-        escreva("Digite um número decimal: ")
-        leia(numDecimal)
-
-        escreva("O número digitado foi: ", numDecimal)
-    }
+		escreva("O número é par? " + ehPar)
+		
+	}
+	
 }
 
 /* $$$ Portugol Studio $$$ 
@@ -17,7 +22,7 @@
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 15; 
+ * @POSICAO-CURSOR = 180; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -1,30 +1,27 @@
 programa
-{//4
+{
 	
 	funcao inicio()
 	{
-		logico numInteiro
-		inteiro  num	
 		
-		escreva("Digite um número : ")
-		leia(num)	
+		caracter sexo
+		inteiro idade
 		
-		numInteiro = (num % 2 == 0) 
+		escreva("Digite seu genero: ")
+		leia(sexo)
 
-		se (numInteiro)
-		escreva("O número ", num, " é par.")
-		senao
-		escreva("O número ", num, " é impar.")
+		escreva("Digite sua idade: ")
+		leia(idade)
+
+		escreva("Sexo : " + sexo  + "\nIdade: "  + idade)		
 	}
-	
 }
-
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 13; 
+ * @POSICAO-CURSOR = 10; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
