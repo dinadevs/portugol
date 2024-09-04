@@ -2,16 +2,21 @@ programa
 {
 	funcao inicio()
 	{
-		logico a = verdadeiro, 
-		b = verdadeiro, 
-		c = falso
+		logico a, b, c
 
-		escreva(a + " ," +  b + " ," + c + "\n\n")
+		escreva("->Digite verdadeito ou falso<-\n")
+		escreva("Vamos fazer isso 3 vezes certo? \n\n")
 
-		escreva("a)true e true e true e false: " + (a e b e b e c) + "\n")
-		escreva("b)não(true) ou false e true: " + ((nao b) ou c e b) + "\n")
-		escreva("c)false ou(true ou true) e true: " + (c ou(a ou b) e a) + "\n")
-		escreva("d)false(true e true ou false: " + (nao(a e b ou c)) + "\n")
+		leia(a)
+		leia(b)
+		leia(c)	
+		
+		escreva("\n" + a + " ," +  b + " ," + c + "\n\n")
+
+		escreva("a)nao " + a + " e " + b + " ou " + c  +": " + (nao a e b ou c) + "\n")
+		escreva("b)nao " + b + " ou " + c + " e " + b + ": " + ((nao b) ou c e b) + "\n")
+		escreva("c)nao(" + a + ") e (" + b + " ou " + a + ") e " + c + ": " + (nao(a) e (b ou a) e c) + "\n")
+		escreva("d)nao(" + a + " e " + b + ") ou " + c + ": " + (nao(a e b) ou c) + "\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -19,7 +24,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 366; 
+ * @POSICAO-CURSOR = 165; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
