@@ -26,4 +26,14 @@
     1. Uma expressão com três operadores lógicos (ex: não a e b ou c)
     2. Uma expressão com três operadores lógicos, mas com não priorizado                                                         
     3. Uma expressão com três operadores lógicos, mas com ou priorizada
-    4. Uma expressão com três operadores lógicos, mas com e priorizada
+    4. Uma expressão com três operadores lógicos, mas com e priorizada  
+## Lista3-operadores-aritméticos
+1. Faça um programa que receba 5 números e: some o 1° com o 2°, subtraia pelo 3°, multiplique pelo 4° e divida pelo 5°, na mesma expressão, nessa ordem.    
+2. Faça um programa que receba 2 números e mostre:
+    1. O resto da divisão do 1° pelo 2°
+    2. O 1° elevado ao 2°
+    3. A raiz quadrada do 1° e do 2°    
+3. Faça um programa que receba 1 número e mostre quanto é esse número mais 1 e menos 1   
+4. Faça um programa que receba dois números e mostre
+    1. O resultado inteiro da divisão do 1° pelo 2° 
+    2. O resultado com decimais da divisão do 2° pelo 1°
