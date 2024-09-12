@@ -1,36 +1,31 @@
 programa
-{ 
+{
 	
 	funcao inicio()
-	{	
+	{
 		
-		inteiro idade 
+		inteiro idade
 		
 		escreva("Digite sua idade: ")
 		leia(idade)
 
-		se(idade >= 0 e idade <= 130) {
-		
-			se(idade < 16) {
-				escreva("Menor de 16 não entra! ")
-			
-			} senao se(idade < 18) {
-				escreva("Com 16 e 17 entra com os pais! ")
-			
-			} senao {
-				escreva("Maior de 18 entra ! ")
-			}
-
-		} senao escreva("Escreva uma idade válida.")
-   } 
+		se (idade < 16) { 
+			escreva("Menor de idade não entra\n")
+		}
+		senao se (idade >= 16 e idade < 18) {
+			escreva("Entra liberada somente se estiver acompanhado com os pais\n")
+		}
+		senao {
+			escreva("Entrada liberada!\n")
+		}
+	}
 }
-
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 343; 
+ * @POSICAO-CURSOR = 33; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
