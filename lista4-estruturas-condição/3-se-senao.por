@@ -19,7 +19,7 @@ programa
 
 		escreva("Números digitados: " + n1 + ", " + n2 + ", " + n3 + ", " + n4)
 
-		se(n1 == 4 e n1 > n3) {
+		se(n1 == n4 e n1 > n3) {
 			escreva("\na")
 		}
 
@@ -43,7 +43,7 @@ programa
 			escreva("\nf")
 		}
 
-		escreva("\ng")
+		senao escreva("\ng")
 	}
 }
 
@@ -52,7 +52,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 672; 
+ * @POSICAO-CURSOR = 673; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

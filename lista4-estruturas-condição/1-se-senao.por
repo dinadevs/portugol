@@ -23,13 +23,15 @@ programa
 		limpa() 
 		
 		se(media < 6) {
-			escreva("\nNota do aluno: " + media + " \nAluno reprovado!\n")
+			escreva("\nMedia do aluno: " + media + " \nAluno reprovado!\n")
+		} senao {
+		
+			escreva("\nMedia do aluno: " + media + " \nAluno aprovado!!!\n")
 		}
 
-		senao escreva("\nNota do aluno: " + media + " \nAluno aprovado!!!\n")
-	}
-
-		senao escreva("\nNota invalida! Notas de 0 a 10\n")
+		} senao {
+			escreva("\nNota invalida! Notas de 0 a 10\n")
+	  }
    }
 }
 /* $$$ Portugol Studio $$$ 
@@ -37,7 +39,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 635; 
+ * @POSICAO-CURSOR = 482; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

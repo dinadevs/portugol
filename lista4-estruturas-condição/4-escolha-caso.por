@@ -7,7 +7,7 @@ programa
 		
 		escreva("Digite a opção desejada:\n")
 		escreva("1- Fatura\n")
-		escreva("2- Recarga")
+		escreva("2- Recarga\n")
 		escreva("3- Trocar de plano\n")
 		escreva("4- Suporte técnico\n")
 		escreva("5- Falar com atendente\n")
@@ -43,7 +43,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 12; 
+ * @POSICAO-CURSOR = 90; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
