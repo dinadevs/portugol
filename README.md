@@ -63,3 +63,9 @@
 2. Faça um programa que sorteia um número entre 1 e 10 depois pergunta para o usuário qual o número sorteado, repetindo o processo até que ele acerte, com faca enquanto.
 1. Faça um programa que soma todos os números de 1 a 20 e exibe a soma, com para.
 2. Faça um programa que conta segundos de 10 até 0, com enquanto.
+## Lista 6 - Funções e procedimentos
+1. Faça um programa que: leia um nome e um sexo (F ou M), e faça um procedimento que recebe os dois e imprime “Olá, senhora nome” ou “Olá, senhor nome”, de acordo com o sexo.
+2. Faça um programa que lê dois números inteiros a e b, faça também uma função que retorne verdadeiro se eles são maiores que 0 e a > b. Caso contrário, retorna falso. Printe esse resultado na tela.
+3. Faça um programa que recebe 2 números reais e um símbolo (+, -, * ou /)  e então faça um procedimento que realiza a operação matemática dos dois números, de acordo com o símbolo e mostra o resultado na tela, ex: `5 * 5 = 25`. 
+4. Faça um programa que recebe um número entre 0 e 100 (enquanto estiver fora desse intervalo, continue perguntando), e então faça uma função que recebe esse número e retorna a soma de todos os números de 0 até o número recebido. Mostre o resultado na tela.
+5. Faça uma função que fica solicitado que o usuário digite uma “tecla secreta”, e só para se o usuário digitar a tecla ‘alt’, quando a alt for digitada, a função retorna para a função início (sem nenhum valor) e na início é printado `Você acertou`.
