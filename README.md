@@ -1,11 +1,11 @@
-## lista1-entrada-saida-variaveis
+## lista 1 - entrada e saída de  variáveis
 1. Faça um programa que imprima “amor batatita”    
 2. Faça um programa que leia um nome.    
 3. Faça um programa que leia uma idade e imprima “sua idade é: *idade lida*”         
 4. Faça um programa que declare uma variável lógica e imprima essa variável    
 5. Faça um programa que leia um caractere e um número inteiro e imprima ambos    
 6. Faça um programa que imprima “digite um número decimal: ”, leia um número decimal e imprima este número
-## lista2-expressões-relacionais-lógica
+## lista 2 - expressões relacionais lógica
 1. Faça um programa que leia um número x, depois um número y e imprima em linhas diferentes.
     1. são iguais;
     2. são diferentes;
@@ -27,7 +27,7 @@
     2. Uma expressão com três operadores lógicos, mas com não priorizado                                                         
     3. Uma expressão com três operadores lógicos, mas com ou priorizada
     4. Uma expressão com três operadores lógicos, mas com e priorizada  
-## lista3-operadores-aritméticos
+## lista 3 - operadores aritméticos
 1. Faça um programa que receba 5 números e: some o 1° com o 2°, subtraia pelo 3°, multiplique pelo 4° e divida pelo 5°, na mesma expressão, nessa ordem.    
 2. Faça um programa que receba 2 números e mostre:
     1. O resto da divisão do 1° pelo 2°
@@ -37,7 +37,7 @@
 4. Faça um programa que receba dois números e mostre
     1. O resultado inteiro da divisão do 1° pelo 2° 
     2. O resultado com decimais da divisão do 2° pelo 1°
-## lista4-estruturas-de-condição
+## lista 4 - estruturas de condição
 1. Faça um programa que receba 4 notas de 0 a 10, tire a média e diga se o aluno foi reprovado (< 6) ou aprovado (> 10).   
 2. Faça um programa que receba a idade e diga:
     1. se menor de 16 = não entra
@@ -55,3 +55,11 @@
 5. Para cada tipo sanguíneo, existem os tipos compatíveis para recepção e para doação. Faça um manual de doação de sangue:
     1. Receba se a pessoa quer receber ou doar sangue
     2. Receba o tipo sanguíneo e retorna qual(is) sangue(s) a pessoa poderá receber, se tiver escolhido receber, ou doar se tiver escolhido doar
+## lista 5 - Estruturas de repetição
+1. Faça um programa que leia um número e imprima a tabuada de 1 a 10 de multiplicação dele 3 vezes:
+    1. Na primeira vez, por enquanto
+    2. Na segunda, por faca enquanto
+    3. Na terceira, por para
+2. Faça um programa que sorteia um número entre 1 e 10 depois pergunta para o usuário qual o número sorteado, repetindo o processo até que ele acerte, com faca enquanto.
+1. Faça um programa que soma todos os números de 1 a 20 e exibe a soma, com para.
+2. Faça um programa que conta segundos de 10 até 0, com enquanto.
