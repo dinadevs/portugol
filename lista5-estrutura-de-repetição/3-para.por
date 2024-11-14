@@ -3,12 +3,12 @@ programa
 	funcao inicio()
 	{
 
-		inteiro soma = 0
+		inteiro soma = 1
 
 		escreva("Somando os números de 1 a 20 \n")
 		
 		para(inteiro c = 1; c <= 20; c++) {
-			escreva(c, " + ", soma, " = ")
+			escreva(soma, " + ", c, " = ")
 			soma = soma + c
 			escreva(soma, "\n")
 		}
@@ -21,7 +21,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 255; 
+ * @POSICAO-CURSOR = 153; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

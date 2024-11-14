@@ -23,8 +23,6 @@ programa
 		}
 		enquanto (c <= 10)
 
-		c = 1
-
 		escreva("\nTabuada com 'para':\n")
 		para(c = 1; c <= 10; c++) { 
 			escreva(num, " x ", c, " = ", num * c, "\n")
@@ -37,7 +35,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 420; 
+ * @POSICAO-CURSOR = 419; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
