@@ -1,23 +1,22 @@
 programa
 {
-        
     funcao inicio()
     {
         inteiro num
+        inteiro resultado 
 
-        escreva("Digite um número entre 0 e 100: ")
-        leia(num)
-
-        enquanto (num < 0 ou num > 100)
+        faca 
         {
-            escreva("Número inválido. \nSomente números entre 0 e 100 : ")
+            escreva("Digite um número entre 0 e 100: ")
             leia(num)
         }
-
-        procedimento(num)
+        enquanto (num < 0 ou num > 100)
+        
+        resultado = calcularSoma(num)  
+        escreva("A soma dos números de 0 até ", num, " é: ", resultado, "\n")
     }
 
-    funcao procedimento(inteiro num)
+    funcao inteiro calcularSoma(inteiro num)
     {
         inteiro soma = 0
 
@@ -26,7 +25,7 @@ programa
             soma = soma + c
         }
 
-        escreva("A soma dos números de 0 até ", num, " é: ", soma, "\n")
+        retorne soma
     }
 }
 
@@ -35,7 +34,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 371; 
+ * @POSICAO-CURSOR = 390; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -10,13 +10,14 @@ programa
         escreva("Digite o segundo número: ")
         leia(b)
         
-        se (retorna(a, b)) 
+        se (verificaCondicoes(a, b)) {
             escreva(a, " e ", b, " são maiores que 0, e ", a, " é maior que ", b, "\n")
-        senao
+   	   } senao {
             escreva("Falso\n")
+        }
     }
 
-    funcao logico retorna(inteiro a, inteiro b)
+    funcao logico verificaCondicoes(inteiro a, inteiro b)
     {
         retorne (a > 0 e b > 0 e a > b)
     }
@@ -27,7 +28,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 352; 
+ * @POSICAO-CURSOR = 496; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
