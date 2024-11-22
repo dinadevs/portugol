@@ -69,3 +69,19 @@
 3. Faça um programa que recebe 2 números reais e um símbolo (+, -, * ou /)  e então faça um procedimento que realiza a operação matemática dos dois números, de acordo com o símbolo e mostra o resultado na tela, ex: `5 * 5 = 25`. 
 4. Faça um programa que recebe um número entre 0 e 100 (enquanto estiver fora desse intervalo, continue perguntando), e então faça uma função que recebe esse número e retorna a soma de todos os números de 0 até o número recebido. Mostre o resultado na tela.
 5. Faça uma função que fica solicitado que o usuário digite uma “tecla secreta”, e só para se o usuário digitar a tecla ‘alt’, quando a alt for digitada, a função retorna para a função início (sem nenhum valor) e na início é printado `Você acertou`.
+## lista 7 - Vetores e Matrizes
+1. Declare já preenchendo os valores de uma matriz de caracteres, representando um jogo da velha em que o X ganhou do O, e exiba isso na tela.
+2. Leia 5 números, armazene em um vetor e depois mostre na tela cada um em uma linha.
+3. Leia 3 números e imprima a soma dos 3 (use estrutura de repetição)
+4. Leia um nome de 4 caracteres, letra por letra, armazenando em um vetor, depois imprima o nome invertido
+5. Leia quantos números um vetores deve ter, depois declare esse vetor com o tamanho certo, preencha ele com números de 1 > até o tamanho, depois exiba na tela.  
+6. Leia 2 números, depois crie um vetor de 5 números que soma a última posição com a penúltima até dar 5 valores, iniciando pelos números lidos, exemplo:       
+7. Faça um programa que
+    1. Recebe quantos alunos são, quantas notas cada um tem, e declara uma matriz com espaço para 1 nota a mais;
+    2. Depois, leia as notas de cada aluno;
+    3. O espaço em branco de cada aluno deve ser preenchido com a média das notas dele
+    4. Por fim, imprima tudo nesse modelo:
+        Aluno 1
+        Nota 1: 3
+        Nota 2: 3
+        Media: 3
